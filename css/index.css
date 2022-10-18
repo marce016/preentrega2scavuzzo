@@ -1,0 +1,248 @@
+.header {
+    background: url(../img/imgPrincipal.png);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-flow: row nowrap;
+    background: rgba(245, 5, 5, 0.1);
+    border-bottom: 5px solid rgba(255, 255, 255, .5);
+    top: 0;
+    height: 150px;
+    align-items: center;
+    
+
+}
+
+.logo{
+   
+    padding: 0 20px;
+    align-items: center;
+    transition: transform 1s;
+    margin: 100px;
+
+    
+
+
+
+}
+
+.logo:hover {
+    transform: scale(1.1);
+ 
+}
+
+.menu {
+
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    margin: 50px;
+    
+
+    
+    
+}
+
+.menu .menu__items{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+    .menu .menu__items:hover{
+        color: darkgrey;
+
+    }
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(117, 35, 35);
+    padding: 10px;
+    height: 500px;
+    font-size: 30px;
+    justify-content: center;
+    border-bottom: 5px solid rgba(255, 255, 255, .5);
+}
+
+.central:hover{
+    color: darkgrey;
+}
+.articulos {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 30px;
+    background-color: gainsboro;
+}
+
+   .articulos .articulos__items {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        
+    }
+
+    .saludo {
+        background-color: lightsteelblue;
+        margin: 10px 0;
+        letter-spacing: 3px;
+    }
+    .titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        text-transform: uppercase;
+       
+    }
+
+    .titulo__item {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .interior {
+    background: url(../img/interior.png)
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    align-items: center;
+    background-color: black
+    
+    
+    
+    
+}
+    
+.footer .ubicacion {
+    display: flex
+    flex-direction: column
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    margin: 50px
+
+}
+
+.footer .ubicacion .ubicacion__items {
+    color: white;
+}
+
+
+.contactanos {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+}
+    .contactanos .contactanos__items {
+        display: flex;
+         flex-direction: column;
+         text-transform: uppercase;
+         justify-content: center;
+         margin: 50px;
+         
+         
+    }
+    
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 10px;
+        align-items: baseline;
+        margin: 10px;
+
+    }
+
+
+
+@media all and (max-width: 800px) {
+   .navbar {
+   flex-direction: column;
+   height: auto;
+   }
+   .medio {
+    flex-direction: column;
+    height: auto;
+   }
+   .articulos {
+    flex-direction: column;
+    height: auto;
+   }
+   .footer {
+    flex-direction: column;
+    height: auto;
+   }
+   
+}
+
+@media all and (max-width: 600px) {
+    .navbar {    
+    flex-direction: column;
+    height: auto;
+    }
+    .medio {
+        flex-direction: column;
+        height: auto;
+       }
+       .articulos {
+        flex-direction: column;
+        height: auto;
+       }
+       .footer {
+        flex-direction: column;
+        height: auto;
+       }
+
+}
+
+@media all and (max-width: 400px) {
+    .navbar {
+    flex-direction: column;
+    height: auto;
+    }
+    .medio {
+        flex-direction: column;
+        height: auto;
+       }
+       .articulos {
+        flex-direction: column;
+        height: auto;
+       }
+       .footer {
+        flex-direction: column;
+        height: auto;
+       }
+}
+    
