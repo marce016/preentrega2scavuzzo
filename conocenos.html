@@ -5,82 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A coffee</title>
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">    
 </head>
 <body>
-    <main>
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="./index.html"><img src="./img/log1.png" alt="imagen de tasa de caffe y nombre del sitio"></a>
-            </div>
+        <div class="back-navbar">
+            <nav class="navbar contain">
+                <div class="logo">
+                    <a href="./index.html">A coffee</a>
+                </div>
                 <ul class="menu">
                     <li>
-                       <a class="menu__items" href="./acoffee.html">acoffee</a>
+                        <a class="menu__items" href="./acoffee.html">acoffee</a>
                     </li>
                     <li>
-                       <a class="menu__items" href="./conocenos.html">conocenos</a>
+                        <a class="menu__items" href="./conocenos.html">conocenos</a>
+                    </li>
+                    <li>
+                        <a class="menu__items" href="./menu.html">menu</a>
+                    </li>
+                    <li>
+                        <a class="menu__items" href="./llevalo.html">llevalo</a>
+                    </li>
+                    <li>
+                        <a class="menu__items" href="./contactanos.html">contactanos</a>
                     </li>
                 </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
-</main>
-<section class="saludo">
-    <div class="titulo">
-        <h1>
-            conocenos
-        </h1>
-    </div>
-</section>
-<section class="interior">
-    <div class="titulo__item">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed mollitia accusamus sapiente quos minus ipsam obcaecati minima, deserunt explicabo quae harum quisquam temporibus deleniti nihil. Molestias error ea facilis!</p>
-    </div>
-    <div class="interior_img">
-        <img src="./img/interior.png" alt="">
-    </div>
-</section>
-<section>
-    <div>
-        <img src="" alt="">
-    </div>
-</section>
-        <footer class="footer">
-            <section class="ubicacion">
-                <div class="ubicacion__items">
-                    <h3>
-                        horarios
-                    </h3>
-                    <div>
-                        <span>
-                             Lunes - Viernes: 7am - 6pm
-                        </span>
-                    </div>
-                    <div>
-                        <span>
-                             Sábado: 8am - 8pm
-                        </span>
-                    </div>
-                    <div>
-                        <span>
-                            Domingo: 8am - 6pm
-                        </span>
-                    </div>
+    <div class="back-center">
+    <main class="contain">
+        <section>
+            <div class="titulo">
+                <h1>conocenos</h1>
+            </div>
+        </section>
+        <section>
+            <div class="titulo__item">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed mollitia accusamus sapiente quos minus ipsam obcaecati minima, deserunt explicabo quae harum quisquam temporibus deleniti nihil. Molestias error ea facilis!</p>
+            </div>
+            <figure class="contain">
+                <img class="interior" src="./img/interior.png" alt="imagen de sala principal del cafe">
+            </figure>
+        </section>
+    </main>
+</div>
+<footer class="footer back-footer">
+    <section class="contain">
+        <Article class="horarios" >
+            <div class="horarios__items">
+                <div>
+                     <h3>horarios</h3>
                 </div>
-            </section>
-            <section class= contactanos>
-                <div class="contactanos__items">
-                    <div>
-                        <p>recibi todas nuestras promociones y novedades</p>
-                    </div>
-                    <div class="formulario">
-                        <form action="" method="post"></form>
-                        <input type="email" name="email" id="email" placeholder="ingresa tu e-mail">
-                        <input type="submit" value="Enviar">
-                    </div>
+                <div>
+                    <span>Lunes - Viernes: 7am - 6pm</span>
                 </div>
-            </section>
-        </footer>
-    </body>
-    </html>
+                <div>
+                    <span>Sábado: 8am - 8pm</span>
+                </div>
+                <div>
+                    <span>Domingo: 8am - 6pm</span>
+                </div>
+            </div>
+        </Article>
+    </section>
+    <section class="contain">
+        <article class= "contactanos">
+            <div class="contactanos__items">
+                <div>
+                <p>recibi todas nuestras promociones y novedades</p>
+                </div>
+                <div class="formulario">
+                <form action="" method="post"></form>
+                <input type="email" name="email" id="email" placeholder="ingresa tu e-mail">
+                <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </article>
+    </section>
+</footer>
+<script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
