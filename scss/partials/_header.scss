@@ -4,6 +4,8 @@
     background: url(../img/imgPrincipal.png);
     background-attachment: fixed;
     display: grid;
+
+   
    
     .navbar {
         display: flex;
@@ -63,7 +65,27 @@
         }
         
     }   
+    .central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: darkgrey;
+        padding: 10px;
+        height: 700px;
+        font-size: 30px;
+        justify-content:space-evenly;
+
+        .central__item {
+            padding: 50px;
+            align-items: flex-start;
+            text-transform: uppercase;
+            
+        }
+        .central:hover{
+            color: rgb(96, 161, 161);
+        }   
         
+    }
 }
 
 
