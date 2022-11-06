@@ -1,123 +1,20 @@
-* {
-    box-sizing: border-box;
-}
-.header {
-    background: url(../img/imgPrincipal.png);
-    background-attachment: fixed;
-    
-   
-    display: grid;
-   
-}
 
-/* BOOSTRAP DESREBOOT*/
 
-body {
-    display: block;
-    margin: 8px;
-}
-figure {
-    margin: revert
-    
-}
+
 .contain {
     max-width: 1200px;
     margin: 0 auto;
-}
-header {
-    background-image: url(../img/imgPrincipal.png);
-    background-attachment: fixed;
-    
-    display: grid;
-    
-   
 
 }
 
-navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    
-    top: 0;
-    height: 150px;
-    align-items: center;
-    width: 100%;
-    position: relative;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    
-    top: 0;
-    height: 150px;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    
 
-}
 
-.logo{
-   
-    padding: 0;
-    align-items: center;
-    transition: transform 1s;
-    margin: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
-}
-
-.logo a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    font-family: cursive;
-}
-
-.logo:hover {
-    transform: scale(1.1);
- 
-}
-
-.menu {
-
-    display: flex;
-    font-size: 15px;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-    margin: 50px;
-    text-decoration: none;
-    list-style: none;
-
-    
-    
-}
-
-.menu .menu__items{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 0 20px;
-    height: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transform:translate();
-
-}
-
-    .menu .menu__items:hover{
-        color: darkgrey;
-
-    }
 
 .central {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(117, 35, 35);
+    color: darkgrey;
     padding: 10px;
     height: 700px;
     font-size: 30px;
@@ -128,10 +25,11 @@ navbar {
 .central__item {
     padding: 50px;
     align-items: flex-start;
+    text-transform: uppercase;
     
 }
 .central:hover{
-    color: darkgrey;
+    color: rgb(96, 161, 161);
 }
 .articulos {
     display: flex;
@@ -139,18 +37,25 @@ navbar {
     align-items: center;
     padding: 30px;
     background-color: gainsboro;
+    
 }
 
 .back-navbar {
-    background: rgba(245, 5, 5, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, .5);
-}
-.back-article {
-    background-color: gainsboro;
+    height: 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    
 }
 
-.back-center {
-    background-color: rgb(151, 134, 135, 0.445);
+.back-banner {
+    background-color: gainsboro;
+    display: grid;
+    border-top: 2px  solid rgba(255, 255, 255, .5);
+    
+}
+
+.back-article {
+    background-color: gainsboro;
+
 }
 
 .back-footer {
@@ -158,14 +63,31 @@ navbar {
     display: flex;
     justify-content: space-between
     aling-items:center    
-}
-.articulo__img {
-    width: 100%: 
-    padding: 10px
     
 }
+.articulo__img {
+    
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.articulos__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+      
+}
+.articulos__item:first-of-type {
+border-left: 1px solid grey;
+}
 
-* / LLEVALO / *
+
 .comentary {
    display: flex;
    align-items: center;
@@ -178,39 +100,24 @@ navbar {
     gap: 5px;
 }
 
-* MENU *
+
 
 .menuprincipal {
     display: flex;
-    justify-content: center;
+    display columns: center;;
+    justify-items: center;
     font-size: 30px;
 }
 
 
-* CONTACTANOS *
+
 
 .contact {
-   background-color: brown;
-   color: blue;
-}
-.articulos__item {
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        align-items: center;
-        padding: 40px;
-          
-    }
-.articulos__item:first-of-type {
-    border-left: 1px solid grey;
-}
-
-
-.back-banner {
-    background-color: gainsboro;
-    display: grid;
-    border-top: 2px  solid rgba(255, 255, 255, .5);
-    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color:  rgb(151, 134, 135, 0.445);
+   color: brown;
 }
 
 
@@ -222,26 +129,6 @@ navbar {
         text-transform: uppercase;
         
     }
-    .titulo {
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-        background-color: rgba(151, 134, 135, 0.1);
-        border-bottom: 5px rgba solid (255, 255, 255, .5);
-        padding-top: 30px;
-        
-        
-               
-    }
-
-    .titulo__item {
-        display: flex;
-        justify-content: center;
-        font-size: 20px;
-        background-color: rgba(151, 134, 135, 0.1);
-        padding: 30px;
-        border-bottom: 5px rgba solid (255, 255, 255, .5);
-    }
 
     
     .interior {
@@ -251,64 +138,70 @@ navbar {
 
     }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    border: solid;
-    align-items: center;
-    background-color: black
-       
-    
-}
-    
-.footer .horarios {
-    display: flex
-    flex-direction: column
-    font-size: 30px;
-    text-transform: uppercase;
-    padding: 0 20px;
-    margin: 50
-     
 
-}
-.horarios__items {
-    color: white;
-}
-
-    
-
-
-
-.contactanos {
-    display: flex;
-    color: white;
+.local {
+    display: grid;
+    display: block;
     flex-direction: column;
-    align-items: center;
-   
-    
+    justify-content: center;
+}
+.local__items {
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(179, 190, 190);
+
     
 }
-    .contactanos__items {
-        display: flex;
-         flex-direction: column;
-         text-transform: uppercase;
-         justify-content: center;
-         margin: 50px;
-         
-         
-    }
+
+.local__items__items1 {
+    font-family:'Times New Roman', Times, serif;
     
+    color: rgb(88, 85, 86);
+    font-size: 30px;
+    padding: 25px;
+    text-transform: uppercase;
+    
+}
+.local__items__items2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+    color: rgb(116, 66, 66);
+}
 
-    .formulario {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        width: 10px;
-        align-items: baseline;
-        margin: 10px;
-        gap: 20px;
+.ubicacion {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
 
-    }
+.ubicacion__items {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(58, 56, 56);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.ubicacion__items__horarios {
+    display: flex;
+    flex-direction: column;
+    color: rgb(100, 103, 109);
+}
+
+
+    
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
     @media all and (max-width:1140px) {
         .medio {
@@ -333,7 +226,7 @@ navbar {
     }
 
 @media all and (max-width: 700px) {
-    .img-fluidmax-width: 100%; height: auto;
+    
     .navbar {
    flex-direction: column;
    height: auto;

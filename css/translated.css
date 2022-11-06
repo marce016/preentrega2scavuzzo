@@ -1,0 +1,96 @@
+/* MISC */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-image: url(../img/imgPrincipal.png);
+  background-attachment: fixed;
+  display: grid; }
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  top: 0;
+  height: 150px;
+  align-items: center;
+  width: 100%;
+  position: relative; }
+
+* {
+  box-sizing: border-box; }
+
+.header {
+  background: url(../img/imgPrincipal.png);
+  background-attachment: fixed;
+  display: grid; }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    top: 0;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    position: relative; }
+    .header .navbar .logo {
+      padding: 0;
+      align-items: center;
+      transition: transform 1s;
+      margin: 50px; }
+      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
+.logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: cursive; }
+        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
+.logo a .logo:hover {
+          transform: scale(1.1); }
+    .header .navbar .menu {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      margin: 50px;
+      text-decoration: none;
+      list-style: none; }
+      .header .navbar .menu .menu__items {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 0 20px;
+        height: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+        .header .navbar .menu .menu__items .menu__items:hover {
+          color: darkgrey; }
+
+body {
+  display: block;
+  margin: 8px; }
+
+figure {
+  margin: revert; }
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  background-image: url(../img/imgPrincipal.png);
+  background-attachment: fixed;
+  display: grid; }
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  top: 0;
+  height: 150px;
+  align-items: center;
+  width: 100%;
+  position: relative; }

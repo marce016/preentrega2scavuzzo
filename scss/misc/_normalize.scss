@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/imgPrincipal.png);
+    background-attachment: fixed;
+    display: grid;
+    
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    top: 0;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+figure {
+    margin: revert
+    
+}
