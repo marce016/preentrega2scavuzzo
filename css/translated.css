@@ -19,6 +19,80 @@ navbar {
   width: 100%;
   position: relative; }
 
+.contain {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+body {
+  display: block;
+  margin: 8px; }
+
+figure {
+  margin: revert; }
+
+/* PARTIALS */
+.header {
+  background: url(../img/imgPrincipal.png);
+  background-attachment: fixed;
+  display: grid; }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    top: 0;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    position: relative; }
+    .header .navbar .logo {
+      padding: 0;
+      align-items: center;
+      transition: transform 1s;
+      margin: 50px; }
+      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
+.logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: cursive; }
+        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
+.logo a .logo:hover {
+          transform: scale(1.1); }
+    .header .navbar .menu {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      margin: 50px;
+      text-decoration: none;
+      list-style: none; }
+      .header .navbar .menu .menu__items {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 0 20px;
+        height: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+        .header .navbar .menu .menu__items .menu__items:hover {
+          color: darkgrey; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  align-items: center;
+  background: url(../img/footer2.jpg) #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .footer .back-footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
 * {
   box-sizing: border-box; }
 
@@ -69,28 +143,189 @@ navbar {
         .header .navbar .menu .menu__items .menu__items:hover {
           color: darkgrey; }
 
-body {
+.header2 {
   display: block;
-  margin: 8px; }
+  background: url(../img/fondo.jpg) #000;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  display: grid;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .header2 .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    top: 0;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    position: relative; }
+    .header2 .navbar .logo {
+      padding: 0;
+      align-items: center;
+      transition: transform 1s;
+      margin: 50px; }
+      .header2 .navbar .logo font-family:Verdana, .header2 .navbar .logo Geneva, .header2 .navbar .logo Tahoma, .header2 .navbar .logo sans-serif
+.logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: cursive; }
+        .header2 .navbar .logo font-family:Verdana .logo:hover, .header2 .navbar .logo Geneva .logo:hover, .header2 .navbar .logo Tahoma .logo:hover, .header2 .navbar .logo sans-serif
+.logo a .logo:hover {
+          transform: scale(1.1); }
+    .header2 .navbar .menu {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      margin: 50px;
+      text-decoration: none;
+      list-style: none; }
+      .header2 .navbar .menu .menu__items {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 0 20px;
+        height: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+        .header2 .navbar .menu .menu__items .menu__items:hover {
+          color: darkgrey; }
 
-figure {
-  margin: revert; }
+.back-conocenos {
+  background-color: gainsboro;
+  border-bottom: #000; }
 
-.contain {
-  max-width: 1200px;
-  margin: 0 auto; }
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  height: 300px;
+  border-bottom: 5px rgba solid 255, 255, 255, 0.5;
+  padding-top: 50px;
+  color: ghostwhite;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.5px; }
 
-header {
-  background-image: url(../img/imgPrincipal.png);
+.conocenos__parrafo {
+  display: flex; }
+
+.figure__local {
+  display: flex;
+  align-items: center;
+  padding: 20px; }
+
+.parrafo__item {
+  position: relative;
+  width: 50%;
+  height: auto; }
+
+.articulo__parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 51px;
+  left: -108px; }
+
+.back-figure {
+  background-color: rgba(105, 105, 105, 0.521);
+  border-bottom: 30px solid gainsboro; }
+
+.parrafo__item__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgba(87, 78, 78, 0.527);
+  padding: 50px;
+  color: #fff;
+  width: 100%; }
+
+.parrafo__figure {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between; }
+
+.parrafo__figure__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: space-between;
+  padding: 10px; }
+
+.parrafo__figure2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: space-around; }
+
+.back-contactanos {
+  background-color: gainsboro; }
+
+.contactanos {
+  display: flex;
+  flex-direction: column; }
+
+.formulario {
+  display: flex;
+  flex-direction: column; }
+
+* {
+  box-sizing: border-box; }
+
+.header {
+  background: url(../img/imgPrincipal.png);
   background-attachment: fixed;
   display: grid; }
-
-navbar {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  top: 0;
-  height: 150px;
-  align-items: center;
-  width: 100%;
-  position: relative; }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    top: 0;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    position: relative; }
+    .header .navbar .logo {
+      padding: 0;
+      align-items: center;
+      transition: transform 1s;
+      margin: 50px; }
+      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
+.logo a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: cursive; }
+        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
+.logo a .logo:hover {
+          transform: scale(1.1); }
+    .header .navbar .menu {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      margin: 50px;
+      text-decoration: none;
+      list-style: none; }
+      .header .navbar .menu .menu__items {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 0 20px;
+        height: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+        .header .navbar .menu .menu__items .menu__items:hover {
+          color: darkgrey; }
