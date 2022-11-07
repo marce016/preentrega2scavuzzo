@@ -1,0 +1,94 @@
+
+
+.back-banner {
+    background-color: gainsboro;
+
+}
+
+.banner {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 30px;
+    background-color: gainsboro;
+
+    .banner__img {
+    
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+        
+    }
+    .banner__item {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-bottom: 30px;
+          
+    }
+
+    
+}
+
+.local {
+    display: grid;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+
+    .local__items {
+        text-align: center;
+        flex-direction: column;
+        padding: 50px;
+        background-color: rgb(179, 190, 190);
+
+        .local__items__items1 {
+            font-family:'Times New Roman', Times, serif;
+            
+            color: rgb(88, 85, 86);
+            font-size: 30px;
+            padding: 25px;
+            text-transform: uppercase;
+            
+        }
+        .local__items__items2 {
+            padding-bottom: 50px;
+            font-size: 40px;
+            color: rgb(116, 66, 66);
+        }
+    
+        
+    }
+}
+
+.ubicacion {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+
+    .ubicacion__items {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: rgb(58, 56, 56);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        .ubicacion__items__horarios {
+            display: flex;
+            flex-direction: column;
+            color: rgb(100, 103, 109);
+        }
+    }
+
+    
+}
+
+
+
+

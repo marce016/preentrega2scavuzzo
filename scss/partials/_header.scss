@@ -4,6 +4,7 @@
     background: url(../img/imgPrincipal.png);
     background-attachment: fixed;
     display: grid;
+    border-bottom: 2px solid rgba(255, 255, 255, 1.0);
 
    
    
@@ -15,23 +16,31 @@
         height: 150px;
         align-items: center;
         width: 100%;
-        position: relative; 
+        position: relative;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        
         
         .logo {
             padding: 0;
             align-items: center;
             transition: transform 1s;
             margin: 50px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            text-transform: uppercase; 
+            
+            &:hover {
+                   transform: scale(1.1);
             
             .logo a {
                 text-decoration: none;
                 color: white;
                 font-size: 30px;
                 font-family: cursive;
+               
+            
+            
                 
-                .logo:hover {
-                   transform: scale(1.1);
                 }
             }                  
         }        
@@ -46,7 +55,7 @@
             text-decoration: none;
             list-style: none;
 
-            .menu__items{
+            &__items {
                 text-decoration: none;
                 color: white;
                 font-size: 15px;
@@ -55,7 +64,7 @@
                 text-transform: uppercase;
                 letter-spacing: 2px;
 
-                .menu__items:hover{
+                &:hover{
                     color: darkgrey;
 
                 }
@@ -75,18 +84,114 @@
         font-size: 30px;
         justify-content:space-evenly;
 
-        .central__item {
+        &__item {
             padding: 50px;
             align-items: flex-start;
             text-transform: uppercase;
             
         }
-        .central:hover{
+        &:hover{
             color: rgb(96, 161, 161);
         }   
         
     }
 }
+
+.header2 {
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap; 
+        top: 0;
+        height: 150px;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        
+        
+        .logo {
+            padding: 0;
+            align-items: center;
+            transition: transform 1s;
+            margin: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            text-transform: uppercase; 
+            
+            &:hover {
+                   transform: scale(1.1);
+            
+            .logo a {
+                text-decoration: none;
+                color: white;
+                font-size: 30px;
+                font-family: cursive;
+               
+            
+            
+                
+                }
+            }                  
+        }        
+
+        .menu {
+            display: flex;
+            font-size: 15px;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+            margin: 50px;
+            text-decoration: none;
+            list-style: none;
+
+            &__items {
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+                padding: 0 20px;
+                height: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+
+                &:hover{
+                    color: darkgrey;
+
+                }
+
+            }
+                
+        }
+        
+    }   
+    .central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: darkgrey;
+        padding: 10px;
+        height: 700px;
+        font-size: 30px;
+        justify-content:space-evenly;
+
+        &__item {
+            padding: 50px;
+            align-items: flex-start;
+            text-transform: uppercase;
+            
+        }
+        &:hover{
+            color: rgb(96, 161, 161);
+        }   
+        
+    }
+}
+
 
 
 

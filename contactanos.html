@@ -45,34 +45,43 @@
         </section>
      </header>
  <main class="back-contactanos">
-    <section class="contain">
-        <div class="contactanos">
-            <div class="ubicacion__items">
-                <h2>Nuestro Local</h2>
-                <span>La Plata</span>
-            </div>
-            <div class="ubicacion__items">
-                <h3>A Coffee La Plata</h3>
-            </div>
-            <div class="ubicacion__items__horarios">
-                <span>Abierto de 8hs a 20hs</span>
-                <span> 0221 123456789</span>
-                <span>calle xx, La Plata, Buenos Aires</span>
-            </div>
-            <div>
-                <img src="./img/localContacto.png" alt="imagen del interior del local">
-            </div> 
-        </div>
-    </section>
-    <section class="contain">
-        <div class="formulario">
-            <form action method="post"></form>
-            <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre">
-            <input type="number" name="Telefono" id="Telefono" placeholder="Ingrese su nro de Telefono">
-            <input type="email" name="Email" id="Email" placeholder="Ingrese su E-Mail">
-            <textarea name="Comentario" id="" placeholder="Deje su Mensaje" cols="30" rows="10"></textarea> 
-            <input type="submit" value="Enviar">
-        </div>
+    <div class="contactanos">
+        <div class="contactanos__articulos">
+            <section class="contain">
+                <div class="contactanos1">
+                    <div class="contactanos__items">
+                        <h2>Nuestro Local</h2>
+                        <span>La Plata</span>
+                    </div>
+                    <div class="contactanos__items">
+                        <h3>A Coffee La Plata</h3>
+                    </div>
+                    <div class="contactanos__items__horarios">
+                        <span>Abierto de 8hs a 20hs</span>
+                        <span> 0221 123456789</span>
+                        <span>calle xx, La Plata, Buenos Aires</span>
+                    </div>
+                    <div >
+                        <figure>
+                            <img src="./img/localContacto.png" alt="imagen del interior del local">
+                        </figure>
+                    </div> 
+                </div>
+            </section>
+            <section class="contain">
+                <div class="formulario">
+                    <div class="formulario__item">
+                        <form action method="post"></form>
+                        <input class="form__campos" type="text" name="Nombre" id="Nombre" placeholder="NOMBRE">
+                        <input class="form__campos" type="number" name="Telefono" id="Telefono" placeholder="TELEFONO">
+                        <input class="form__campos" type="email" name="Email" id="Email" placeholder="E-MAIL">
+                        <textarea class="form__campos" name="Comentario" id="" placeholder="DEJE SU MENSAJE" cols="30" rows="10"></textarea>
+                        <input class="botons" type="submit" class="btn btn-gray"  value="Enviar"> 
+                    </div>
+                </div>
+            </section>
+        </div>   
+    </div>
  </main>
  <footer class="footer back-footer">
     <section class="contain">

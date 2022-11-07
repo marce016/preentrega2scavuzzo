@@ -34,7 +34,8 @@ figure {
 .header {
   background: url(../img/imgPrincipal.png);
   background-attachment: fixed;
-  display: grid; }
+  display: grid;
+  border-bottom: 2px solid white; }
   .header .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,21 +44,23 @@ figure {
     height: 150px;
     align-items: center;
     width: 100%;
-    position: relative; }
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .header .navbar .logo {
       padding: 0;
       align-items: center;
       transition: transform 1s;
-      margin: 50px; }
-      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
-.logo a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-family: cursive; }
-        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
-.logo a .logo:hover {
-          transform: scale(1.1); }
+      margin: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      text-transform: uppercase; }
+      .header .navbar .logo:hover {
+        transform: scale(1.1); }
+        .header .navbar .logo:hover .logo a {
+          text-decoration: none;
+          color: white;
+          font-size: 30px;
+          font-family: cursive; }
     .header .navbar .menu {
       display: flex;
       font-size: 15px;
@@ -67,7 +70,7 @@ figure {
       margin: 50px;
       text-decoration: none;
       list-style: none; }
-      .header .navbar .menu .menu__items {
+      .header .navbar .menu__items {
         text-decoration: none;
         color: white;
         font-size: 15px;
@@ -75,80 +78,26 @@ figure {
         height: 10px;
         text-transform: uppercase;
         letter-spacing: 2px; }
-        .header .navbar .menu .menu__items .menu__items:hover {
+        .header .navbar .menu__items:hover {
           color: darkgrey; }
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  border: solid;
-  align-items: center;
-  background: url(../img/footer2.jpg) #000;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-  .footer .back-footer {
-    background-color: black;
+  .header .central {
     display: flex;
-    justify-content: space-between;
-    align-items: center; }
-
-* {
-  box-sizing: border-box; }
-
-.header {
-  background: url(../img/imgPrincipal.png);
-  background-attachment: fixed;
-  display: grid; }
-  .header .navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    top: 0;
-    height: 150px;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    position: relative; }
-    .header .navbar .logo {
-      padding: 0;
-      align-items: center;
-      transition: transform 1s;
-      margin: 50px; }
-      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
-.logo a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-family: cursive; }
-        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
-.logo a .logo:hover {
-          transform: scale(1.1); }
-    .header .navbar .menu {
-      display: flex;
-      font-size: 15px;
-      justify-content: space-between;
-      padding: 0 20px;
-      align-items: center;
-      margin: 50px;
-      text-decoration: none;
-      list-style: none; }
-      .header .navbar .menu .menu__items {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        padding: 0 20px;
-        height: 10px;
-        text-transform: uppercase;
-        letter-spacing: 2px; }
-        .header .navbar .menu .menu__items .menu__items:hover {
-          color: darkgrey; }
+    color: darkgrey;
+    padding: 10px;
+    height: 700px;
+    font-size: 30px;
+    justify-content: space-evenly; }
+    .header .central__item {
+      padding: 50px;
+      align-items: flex-start;
+      text-transform: uppercase; }
+    .header .central:hover {
+      color: #60a1a1; }
 
 .header2 {
-  display: block;
-  background: url(../img/fondo.jpg) #000;
-  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
-  display: grid;
-  padding: 0px;
+  background: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -160,21 +109,23 @@ figure {
     height: 150px;
     align-items: center;
     width: 100%;
-    position: relative; }
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .header2 .navbar .logo {
       padding: 0;
       align-items: center;
       transition: transform 1s;
-      margin: 50px; }
-      .header2 .navbar .logo font-family:Verdana, .header2 .navbar .logo Geneva, .header2 .navbar .logo Tahoma, .header2 .navbar .logo sans-serif
-.logo a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-family: cursive; }
-        .header2 .navbar .logo font-family:Verdana .logo:hover, .header2 .navbar .logo Geneva .logo:hover, .header2 .navbar .logo Tahoma .logo:hover, .header2 .navbar .logo sans-serif
-.logo a .logo:hover {
-          transform: scale(1.1); }
+      margin: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      text-transform: uppercase; }
+      .header2 .navbar .logo:hover {
+        transform: scale(1.1); }
+        .header2 .navbar .logo:hover .logo a {
+          text-decoration: none;
+          color: white;
+          font-size: 30px;
+          font-family: cursive; }
     .header2 .navbar .menu {
       display: flex;
       font-size: 15px;
@@ -184,7 +135,7 @@ figure {
       margin: 50px;
       text-decoration: none;
       list-style: none; }
-      .header2 .navbar .menu .menu__items {
+      .header2 .navbar .menu__items {
         text-decoration: none;
         color: white;
         font-size: 15px;
@@ -192,8 +143,101 @@ figure {
         height: 10px;
         text-transform: uppercase;
         letter-spacing: 2px; }
-        .header2 .navbar .menu .menu__items .menu__items:hover {
+        .header2 .navbar .menu__items:hover {
           color: darkgrey; }
+  .header2 .central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkgrey;
+    padding: 10px;
+    height: 700px;
+    font-size: 30px;
+    justify-content: space-evenly; }
+    .header2 .central__item {
+      padding: 50px;
+      align-items: flex-start;
+      text-transform: uppercase; }
+    .header2 .central:hover {
+      color: #60a1a1; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  align-items: center;
+  background: url(../img/footer2.jpg) #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+  .footer .back-footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer .footer__items {
+    display: flex;
+    color: white; }
+
+.back-banner {
+  background-color: gainsboro; }
+
+.banner {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 30px;
+  background-color: gainsboro; }
+  .banner .banner__img {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .banner .banner__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 30px; }
+
+.local {
+  display: grid;
+  display: block;
+  flex-direction: column;
+  justify-content: center; }
+  .local .local__items {
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #b3bebe; }
+    .local .local__items .local__items__items1 {
+      font-family: 'Times New Roman', Times, serif;
+      color: #585556;
+      font-size: 30px;
+      padding: 25px;
+      text-transform: uppercase; }
+    .local .local__items .local__items__items2 {
+      padding-bottom: 50px;
+      font-size: 40px;
+      color: #744242; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px; }
+  .ubicacion .ubicacion__items {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3a3838;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    .ubicacion .ubicacion__items .ubicacion__items__horarios {
+      display: flex;
+      flex-direction: column;
+      color: #64676d; }
 
 .back-conocenos {
   background-color: gainsboro;
@@ -280,52 +324,61 @@ figure {
   display: flex;
   flex-direction: column; }
 
-* {
-  box-sizing: border-box; }
+.back-banner {
+  background-color: gainsboro; }
 
-.header {
-  background: url(../img/imgPrincipal.png);
-  background-attachment: fixed;
-  display: grid; }
-  .header .navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    top: 0;
-    height: 150px;
-    align-items: center;
+.banner {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 30px;
+  background-color: gainsboro; }
+  .banner .banner__img {
     width: 100%;
-    position: relative; }
-    .header .navbar .logo {
-      padding: 0;
-      align-items: center;
-      transition: transform 1s;
-      margin: 50px; }
-      .header .navbar .logo font-family:Verdana, .header .navbar .logo Geneva, .header .navbar .logo Tahoma, .header .navbar .logo sans-serif
-.logo a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-family: cursive; }
-        .header .navbar .logo font-family:Verdana .logo:hover, .header .navbar .logo Geneva .logo:hover, .header .navbar .logo Tahoma .logo:hover, .header .navbar .logo sans-serif
-.logo a .logo:hover {
-          transform: scale(1.1); }
-    .header .navbar .menu {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .banner .banner__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 30px; }
+
+.local {
+  display: grid;
+  display: block;
+  flex-direction: column;
+  justify-content: center; }
+  .local .local__items {
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #b3bebe; }
+    .local .local__items .local__items__items1 {
+      font-family: 'Times New Roman', Times, serif;
+      color: #585556;
+      font-size: 30px;
+      padding: 25px;
+      text-transform: uppercase; }
+    .local .local__items .local__items__items2 {
+      padding-bottom: 50px;
+      font-size: 40px;
+      color: #744242; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px; }
+  .ubicacion .ubicacion__items {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3a3838;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    .ubicacion .ubicacion__items .ubicacion__items__horarios {
       display: flex;
-      font-size: 15px;
-      justify-content: space-between;
-      padding: 0 20px;
-      align-items: center;
-      margin: 50px;
-      text-decoration: none;
-      list-style: none; }
-      .header .navbar .menu .menu__items {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        padding: 0 20px;
-        height: 10px;
-        text-transform: uppercase;
-        letter-spacing: 2px; }
-        .header .navbar .menu .menu__items .menu__items:hover {
-          color: darkgrey; }
+      flex-direction: column;
+      color: #64676d; }
