@@ -424,57 +424,67 @@
 }
 
 
-/* 
-.articulos__item:first-of-type {
-border-left: 1px solid grey;
-} */
-/* 
+/* MENU */
 
-.comentary {
-   display: flex;
-   align-items: center;
-   background-color: gainsboro;
-   letter-spacing: 2px;
+#menu__grilla {
+    
+}
+.back-menu {
+    background-color: gainsboro;
 
 }
-.delivery {
-    display: flex;
-    gap: 5px;
-}
-
-
-
 .menuprincipal {
-    display: flex;
-    display columns: center;;
-    justify-items: center;
+display: block;
+flex-direction: column;
+align-items: start;
+gap: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family:'Times New Roman', Times, serif;
+color: rgb(77, 73, 73);
+
+
+
+}
+
+.menu__principal__item1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 30px;
 }
+.menu__principal__item2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid gray ;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    
+}
+.menu__img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr); 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: end;
 
+}
+.border__grilla {
+    border: 1px solid gray;
+   
 
+}
 
-
-.contact {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   background-color:  rgb(151, 134, 135, 0.445);
-   color: brown;
+.menu__item__grilla1 {
+    
+   
 }
 
 
-
-    .saludo {
-        background-color: rgb(203, 211, 211);
-        margin: 0;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        
-    }
 
     
    
- */
+
 
 /* CONTACTANOS */
 
