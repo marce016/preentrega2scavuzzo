@@ -1,12 +1,15 @@
 
 
+
+       
 .header {
     background: url(../img/imgPrincipal.png);
     background-attachment: fixed;
     display: grid;
-    border-bottom: 2px solid rgba(255, 255, 255, 1.0);
-
-   
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
    
     .navbar {
         display: flex;
