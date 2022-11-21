@@ -8,19 +8,25 @@ header {
     background-image: url(../img/imgPrincipal.png);
     background-attachment: fixed;
     display: grid;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
     
 }
 
-navbar {
+.navbar {
+    
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
     top: 0;
     height: 150px;
     align-items: center;
-    width: 100%;
+    width: auto;
     position: relative;
 }
+    
 
 
 .contain {
@@ -32,7 +38,7 @@ navbar {
 
 body {
     display: block;
-    margin: 8px;
+    margin: auto;
 }
 
 figure {

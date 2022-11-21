@@ -7,16 +7,20 @@
 header {
   background-image: url(../img/imgPrincipal.png);
   background-attachment: fixed;
-  display: grid; }
+  display: grid;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
-navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
   top: 0;
   height: 150px;
   align-items: center;
-  width: 100%;
+  width: auto;
   position: relative; }
 
 .contain {
@@ -25,7 +29,7 @@ navbar {
 
 body {
   display: block;
-  margin: 8px; }
+  margin: auto; }
 
 figure {
   margin: revert; }
@@ -34,37 +38,37 @@ figure {
 .header {
   background: url(../img/imgPrincipal.png);
   background-attachment: fixed;
-  display: grid;
   border-bottom: 5px solid rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .header .navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    top: 0;
-    height: 150px;
-    align-items: center;
-    width: 100%;
-    position: relative;
+  .header .back-navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-    .header .navbar .logo {
-      padding: 0;
+    .header .back-navbar .navbar {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row nowrap;
+      top: 0;
+      height: 150px;
       align-items: center;
-      transition: transform 1s;
-      margin: 50px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: white;
-      text-transform: uppercase; }
-      .header .navbar .logo:hover {
-        transform: scale(1.1); }
-        .header .navbar .logo:hover .logo a {
+      width: 100%;
+      position: relative; }
+      .header .back-navbar .navbar .logo {
+        padding: 0;
+        align-items: center;
+        transition: transform 1s;
+        margin: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-transform: uppercase; }
+        .header .back-navbar .navbar .logo .logo a {
           text-decoration: none;
           color: white;
           font-size: 30px;
           font-family: cursive; }
-    .header .navbar .menu {
+          .header .back-navbar .navbar .logo .logo a:hover {
+            transform: scale(1.1); }
+    .header .back-navbar .menu {
       display: flex;
       font-size: 15px;
       justify-content: space-between;
@@ -73,7 +77,7 @@ figure {
       margin: 50px;
       text-decoration: none;
       list-style: none; }
-      .header .navbar .menu__items {
+      .header .back-navbar .menu__items {
         text-decoration: none;
         color: white;
         font-size: 15px;
@@ -81,88 +85,17 @@ figure {
         height: 10px;
         text-transform: uppercase;
         letter-spacing: 2px; }
-        .header .navbar .menu__items:hover {
+        .header .back-navbar .menu__items:hover {
           color: darkgrey; }
-  .header .central {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: darkgrey;
-    padding: 10px;
-    height: 700px;
-    font-size: 30px;
-    justify-content: space-evenly; }
-    .header .central__item {
-      padding: 50px;
-      align-items: flex-start;
-      text-transform: uppercase; }
-    .header .central:hover {
-      color: #60a1a1; }
+      .header .back-navbar .menu .medio .medio:hover {
+        color: #60a1a1; }
 
 .header2 {
   background: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
-  .header2 .navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    top: 0;
-    height: 150px;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-    .header2 .navbar .logo {
-      padding: 0;
-      align-items: center;
-      transition: transform 1s;
-      margin: 50px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: white;
-      text-transform: uppercase; }
-      .header2 .navbar .logo:hover {
-        transform: scale(1.1); }
-        .header2 .navbar .logo:hover .logo a {
-          text-decoration: none;
-          color: white;
-          font-size: 30px;
-          font-family: cursive; }
-    .header2 .navbar .menu {
-      display: flex;
-      font-size: 15px;
-      justify-content: space-between;
-      padding: 0 20px;
-      align-items: center;
-      margin: 50px;
-      text-decoration: none;
-      list-style: none; }
-      .header2 .navbar .menu__items {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        padding: 0 20px;
-        height: 10px;
-        text-transform: uppercase;
-        letter-spacing: 2px; }
-        .header2 .navbar .menu__items:hover {
-          color: darkgrey; }
-  .header2 .central {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: darkgrey;
-    padding: 10px;
-    height: 700px;
-    font-size: 30px;
-    justify-content: space-evenly; }
-    .header2 .central__item {
-      padding: 50px;
-      align-items: flex-start;
-      text-transform: uppercase; }
-    .header2 .central:hover {
-      color: #60a1a1; }
+  background-position: center;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1); }
 
 .footer {
   display: flex;
@@ -318,10 +251,6 @@ figure {
 
 .back-contactanos {
   background-color: gainsboro; }
-
-.contactanos {
-  display: flex;
-  flex-direction: column; }
 
 .formulario {
   display: flex;

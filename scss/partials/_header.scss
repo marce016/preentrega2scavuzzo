@@ -5,45 +5,46 @@
 .header {
     background: url(../img/imgPrincipal.png);
     background-attachment: fixed;
-    display: grid;
+   
     border-bottom: 5px solid rgba(255, 255, 255, 0.1);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
-   
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row nowrap; 
-        top: 0;
-        height: 150px;
-        align-items: center;
-        width: 100%;
-        position: relative;
+    background-position: center; 
+    
+    .back-navbar {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        
-        
-        .logo {
-            padding: 0;
+   
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row nowrap; 
+            top: 0;
+            height: 150px;
             align-items: center;
-            transition: transform 1s;
-            margin: 50px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: white;
-            text-transform: uppercase; 
-            
-            &:hover {
-                   transform: scale(1.1);
-            
-            .logo a {
-                text-decoration: none;
+            width: 100%;
+            position: relative;
+           
+        
+        
+            .logo {
+                padding: 0;
+                align-items: center;
+                transition: transform 1s;
+                margin: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 color: white;
-                font-size: 30px;
-                font-family: cursive;
-               
+                text-transform: uppercase; 
             
-            
-                
+                .logo a {
+                   text-decoration: none;
+                   color: white;
+                   font-size: 30px;
+                   font-family: cursive;
+                   
+                   &:hover {
+                    transform: scale(1.1);
+                   }
+                    
                 }
             }                  
         }        
@@ -74,28 +75,17 @@
 
             }
                 
-        }
+        .medio {
         
-    }   
-    .central {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: darkgrey;
-        padding: 10px;
-        height: 700px;
-        font-size: 30px;
-        justify-content:space-evenly;
-
-        &__item {
-            padding: 50px;
-            align-items: flex-start;
-            text-transform: uppercase;
+             
+             .medio:hover {
+           color: rgb(96, 161, 161);
+            }
             
         }
-        &:hover{
-            color: rgb(96, 161, 161);
-        }   
+    
+    
+       }
         
     }
 }
@@ -105,97 +95,109 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+}
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row nowrap; 
-        top: 0;
-        height: 150px;
-        align-items: center;
-        width: 100%;
-        position: relative;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+//     .back-navbar {
+//         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+//         .navbar {
+//             display: flex;
+//             justify-content: space-between;
+//             flex-flow: row nowrap; 
+//             top: 0;
+//             height: 150px;
+//             align-items: center;
+//             width: 100%;
+//             position: relative;
         
         
-        .logo {
-            padding: 0;
-            align-items: center;
-            transition: transform 1s;
-            margin: 50px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: white;
-            text-transform: uppercase; 
+        
+//             .logo {
+//                 padding: 0;
+//                 align-items: center;
+//                 transition: transform 1s;
+//                 margin: 50px;
+//                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+//                 color: white;
+//                 text-transform: uppercase; 
             
-            &:hover {
-                   transform: scale(1.1);
+//                 &:hover {
+//                    transform: scale(1.1);
             
-            .logo a {
-                text-decoration: none;
-                color: white;
-                font-size: 30px;
-                font-family: cursive;
+//                 .logo a {
+//                    text-decoration: none;
+//                    color: white;
+//                    font-size: 30px;
+//                    font-family: cursive;
                
             
             
                 
-                }
-            }                  
-        }        
+//                 }
+//             }                  
+//         }        
 
-        .menu {
-            display: flex;
-            font-size: 15px;
-            justify-content: space-between;
-            padding: 0 20px;
-            align-items: center;
-            margin: 50px;
-            text-decoration: none;
-            list-style: none;
+//         .menu {
+//             display: flex;
+//             font-size: 15px;
+//             justify-content: space-between;
+//             padding: 0 20px;
+//             align-items: center;
+//             margin: 50px;
+//             text-decoration: none;
+//             list-style: none;
 
-            &__items {
-                text-decoration: none;
-                color: white;
-                font-size: 15px;
-                padding: 0 20px;
-                height: 10px;
-                text-transform: uppercase;
-                letter-spacing: 2px;
+//             &__items {
+//                 text-decoration: none;
+//                 color: white;
+//                 font-size: 15px;
+//                 padding: 0 20px;
+//                 height: 10px;
+//                 text-transform: uppercase;
+//                 letter-spacing: 2px;
 
-                &:hover{
-                    color: darkgrey;
+//                 &:hover{
+//                     color: darkgrey;
 
-                }
+//                 }
 
-            }
+//             }
                 
-        }
-        
-    }   
-    .central {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: darkgrey;
-        padding: 10px;
-        height: 700px;
-        font-size: 30px;
-        justify-content:space-evenly;
+//         }
+//         }    
+//     }   
+//     .medio {
 
-        &__item {
-            padding: 50px;
-            align-items: flex-start;
-            text-transform: uppercase;
+//     .medio:hover {
+//         color: rgb(96, 161, 161);
+        
+//         .central {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             color: darkgrey;
+//             padding: 10px;
+//             height: 700px;
+//             font-size: 30px;
+//             justify-content:space-evenly;
+
+//                 &__item {
+//                     padding: 50px;
+//                     align-items: flex-start;
+//                     text-transform: uppercase;
             
-        }
-        &:hover{
-            color: rgb(96, 161, 161);
-        }   
         
-    }
-}
+//                     & :hover{
+//                        color: rgb(96, 161, 161);
+                    
+//                 }
+//             }
+//         }
+//     }
+// }
 
-
+// }
 
 
 
