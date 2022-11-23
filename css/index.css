@@ -724,6 +724,13 @@ border-top: 1px solid #fff;
 
     /* CONTACTANOS */
 
+    
+    .contactanos {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        gap: 10px;
+    }
+       
     .contactanos__articulos {
         display: grid;
         grid-template-columns: 500px 500px;
@@ -796,6 +803,11 @@ border-top: 1px solid #fff;
             width: 100%;
          }
         
+        
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
     }
 
     /* MENU */
